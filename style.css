@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;  
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1, h2{
+    color: #EED6D3;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+header{
+    background-color: #67595E;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    margin: 0 auto;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.pumpkin-img{
+    width: 80px;
+}
