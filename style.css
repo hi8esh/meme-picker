@@ -40,3 +40,38 @@ header{
 .pumpkin-img{
     width: 80px;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto auto;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate-emotion{
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 15px 19px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.select-emotion{
+    display: none;
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 15px 19px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    /* -moz-appearance: none; */
+    /* for Safari, Chrome, Opera */
+    /* -webkit-appearance: none; */ 
+}
