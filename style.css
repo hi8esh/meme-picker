@@ -51,7 +51,7 @@ header{
     align-items: center;
 }
 
-.generate-emotion{
+button{
     background-color: #67595e;
     color: #eed6d3;
     padding: 15px 19px;
@@ -62,8 +62,14 @@ header{
     cursor: pointer;
 }
 
-.select-emotion{
+.generate{
     display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-emotion{
     background-color: #67595e;
     color: #eed6d3;
     padding: 15px 19px;
@@ -74,4 +80,9 @@ header{
     /* -moz-appearance: none; */
     /* for Safari, Chrome, Opera */
     /* -webkit-appearance: none; */ 
+}
+
+.alert-msg{
+    display: none;
+    color: red;
 }

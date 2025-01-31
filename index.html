@@ -21,9 +21,13 @@
     </header>
     <main class="main">
         <button class="generate-emotion" id="generate-emotion">Let's Generate Memes</button>
-        <select name="emotions" class="select-emotion" id="select-emotion">
-            <option value="none" selected hidden>Select Meme Emotion.... </option>
-        </select>
+        <div class="generate" id="generate">
+            <select name="emotions" class="select-emotion" id="select-emotion">
+                <option value="none" selected hidden>Select Meme Emotion.... </option>
+            </select>
+            <button type="submit" class="generate-meme" id="generate-meme">Generate Meme</button>
+            <p class="alert-msg" id="alert-msg">Please Select an option</p>
+        </div>
     </main>
     <script type="module" src="./index.js"></script>
 </body>
